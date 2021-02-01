@@ -2,7 +2,8 @@
 ## Deimer Yecid Olea Llerena
 
 ## Citas
-> prueba cita
+
+> "La educación es el arma más poderosa que puedes usar para cambiar el mundo". -Nelson Mandela.
 
 ## Listas desordenadas
 - prueba
@@ -19,3 +20,9 @@ ___
 
 ## Negrita y cursiva
 **kjsbjadsbdkjsbjdbajdbadbadbsbasljads**
+
+## Enlaces
+[Texto del enlace] (www.google.com)
+
+## Imagenes
+![texto de imagen](URL)
