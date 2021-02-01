@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Market Place APP</title>
+
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+	
+	<!--Navigation-->
+	<nav class="navbar navbar-light bg-light">
+		<a href="" class="navbar-brand" >
+			Aplicacion Productos de Supermercado
+		</a>
+	</nav>
+
+	<div class="container">
+		<!-- Application -->
+		<div id="App" class="row pt-5">
+			<div id="col-md-4">
+				<div class="card">
+					<div class="card-header bg-light">
+						<h4>Agregar producto</h4>
+					</div>
+					<form id="formularioProductos" class="card-body">
+						<div class="form-group">
+							<input type="text" class="form-control" id="name" placeholder="Nombre del producto">
+						</div>	
+						<div class="form-group">
+							<input type="number" step="0.01" class="form-control" id="price" placeholder="Precio del producto">
+						</div>		
+						<div class="form-group">
+							<input type="number"  class="form-control" id="quantity" placeholder="Cantidad">
+						</div>		
+						<input type="submit" id="boton" value="Guardar" class="btn btn-outline-primary btn-block">																		
+					</form>
+				</div>
+			</div>
+			<div id="listaProductos"class="col-md-8"></div>
+
+		</div>
+		<!-- <div class="row pt-5">
+			<h3 id="costoTotal">Costo estimado: $ </h3>
+		</div> -->
+	</div>
+
+	
+	<script type="text/javascript" src="js/code.js"></script>
+</body>
+</html>
